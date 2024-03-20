@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Topsail Beach</title>
+		<link type="text/css" rel="stylesheet" href="css/BalcomTopsailStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header><h1>Topsail Beach, NC</h1></header>
+
+        <main>
+            <nav id="mainNav">
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a href="BalcomTopsail.html">Home</a>
+                    <a href="BalcomTopsail_Things.html">Things To Do</a>
+                    <a href="BalcomTopsail_Accom.html">Accomodations</a>
+                    <a href="BalcomTopsail_Emergency.html">Emergency Information</a>
+                </div>			
+            </nav>
+
+            <h2>Accomodations</h2>
+    
+            <h3>Driving Permits and Wheelchairs</h3>
+
+            <div class="info" id="accomodations">
+                
+                <div class="infoItem">
+                    <p><b>Driving Permits</b><br>Due to the Beach Renourishment Project, Beach Access Permits are <b>NOT AVAILABLE</b> until the 2024/2025 season.</p>
+                    <p>Four wheel drive vehicles are normally allowed with the purchase of a Beach Access Permit for fishing purposes only.</p>
+                    <p><b>PURCHASING A PERMIT:</b> <br> Monday - Friday from the Topsail Beach Police Department 8:00am - 3:00pm (812 S Anderson Blvd)<br> Saturday and Sunday at the Fire Department (816 S Anderson Blvd) <br> <em>Please be patient if no one is readily available, as they are answering an emergency call.</em></p>
+                    <p><b>COST:</b><br> <u>Season Pass</u> <br> $100 for non-residents <br> $25 for residents <br> <br> <u>Weekly Pass</u> <br> $50</p>
+
+                    <p><b>Required Documentation</b> <br> Driver's License <br> Vehicle Registration <br> Fishing License (State-Issued)</p>
+                    <p>The Topsail Beach permit decal must be placed on the windshield of the vehicle once purchased.</p>
+                </div>
+                
+                <div class="infoItem remove">
+                    <img src="images/car.jpeg">
+                </div>
+    
+                <div class="infoItem remove">
+                    <img src="images/wheelchair.jpg">
+                </div>
+
+                <div class="infoItem">
+                    <p><b>Wheelchairs</b><br>Topsail Beach has three beach wheelchairs available for those who have issues walking on sand. These chairs are first-come, first-serve, and are available through the Topsail Beach Police Department.</p>
+                    <p><b>Rules:</b><br>-Wheelchairs are checked out daily, and must be returned by 9pm every day<br>-It is PROHIBITED to take the chairs outside the limits of the town<br>-The user is responsible for any damages to the chair while in their possession<br>-The Town of Topsail Beach is NOT liable for any injuries that might occur while the wheelchair is in the users' possession</p>
+                </div>
+            </div>
+
+            <div class="infoNG">
+                <h3 id="BLink">Business Links</h3>
+                <p><a href="http://beachshopandgrill.com/" target="_blank">Beach Shop And Grill</a></p>
+                <p><a href="https://www.restaurantji.com/nc/topsail-beach/coras-isle-end-deli-/" target="_blank">Cora's Isle End Deli</a></p>
+                <p><a href="https://www.4cousins.com/" target="_blank">Four Cousins Ice Cream</a></p>
+                <p><a href="https://www.quartermoonbooks.com/" target="_blank">Quarter Moon Book Store</a></p>
+                <p><a href="http://www.topsailgiftbasket.com/" target="_blank">The Gift Basket</a></p>
+                <p><a href="http://www.fishtopsail.com/" target="_blank">Topsail Island Tours</a></p>
+                <p><a href="https://topsailsurfandcycle.com/contact-us/" target="_blank">Topsail Surf and Cycle</a></p>
+            </div>
+
+            <footer>
+                <p>820 S. Anderson Blvd., Topsail Beach, NC 28445 | Phone: 910-328-5841 | Fax: 910-328-1560</p>
+                <p>Follow Us On: </p>
+                <p><a href="https://www.facebook.com/" target="_blank">Facebook</a> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://twitter.com/?lang=en" target="_blank">X (Formerly Twitter)</a></p>
+            </footer>
+        </main>
+
+        <script>
+            function menuToggle(){
+                var n = document.getElementById("links");
+                if(n.style.display === "block"){
+                    n.style.display = "none";
+                }
+                else{
+                    n.style.display = "block";
+                }
+            }
+        </script>
+        
+    </body>
+</html>

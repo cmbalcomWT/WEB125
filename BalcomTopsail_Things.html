@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Topsail Beach</title>
+		<link type="text/css" rel="stylesheet" href="css/BalcomTopsailStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header><h1>Topsail Beach, NC</h1></header>
+
+        <main>
+            <nav id="mainNav">
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a href="BalcomTopsail.html">Home</a>
+                    <a href="BalcomTopsail_Things.html">Things To Do</a>
+                    <a href="BalcomTopsail_Accom.html">Accomodations</a>
+                    <a href="BalcomTopsail_Emergency.html">Emergency Information</a>
+                </div>			
+            </nav>
+
+            <h2>Things To Do</h2>
+            <h3 class="bottomPad">Marina, Museums, and More</h3>
+            
+            <div class="info" id="thingsToDo">
+                <div class="infoItem doublePic tooBig">
+                    <img src="images/surfImg.jpg">
+                    <img src="images/beachCouple.jpg" class="remove">
+                </div>
+
+                <div class="infoItem">
+                    
+                    <p>Topsail Beach presents a diverse array of activities to vacationers seeking an unforgettable retreat. Our pristine shoreline invites guests to indulge in sun-soaked relaxation, exhilarating surf sessions, tranquil swims, and fruitful fishing expeditions. Beyond the beach, our picturesque soundfront beckons with access to the Intercoastal Waterway and the nearby allure of <a href="https://nc.audubon.org/conservation/lea-island-and-hutaff-island" target="_blank">Lea Island</a>. The town's <a href="https://topsailbeachnc.gov/Things-to-Do/Marina" target="_blank">Marina</a> stands ready to accommodate boating enthusiasts with all necessary amenities. For landlubbers, Serenity Point offers breathtaking vistas of the sound and waterway, promising moments of pure tranquility.</p>
+                    <p>The town's roots as a quaint coastal fishing enclave are palpable at the <a href="https://www.thejollyroger.com/" target="_blank">Jolly Roger Fishing Pier</a>, where skilled king mackerel fishermen showcase their prowess, and autumnal anglers dot the pier's expanse. Those seeking offshore angling adventures or captivating sunset cruises can secure a spot aboard the headboat <a href="https://fishingtopsailisland.com/" target="_blank">Queen Jean</a> with ease.</p>
+                    <p>For those inclined towards leisurely pursuits, Topsail Beach boasts a collection of <a href="BalcomTopsail_Accom.html#BLink">unique shops and eateries</a> catering to every palate and age group. After a day of culinary exploration and retail therapy, visitors can glide across the <a href="https://www.tripadvisor.com/Attraction_Review-g49604-d1027887-Reviews-Topsail_Beach_Skating_Rink-Topsail_Beach_Topsail_Island_North_Carolina.html" target="_blank">Topsail Island Skating Rink</a> or engage in a friendly round of mini-golf at the <a href="https://www.facebook.com/people/Patio-Playground-the-Putt-Putt/100057241429664/">Patio Playground</a>. Alternatively, delve into the historical tapestry of Topsail Beach at the <a href="https://missilesandmoremuseum.org/" target="_blank">Missiles and More Museum</a>, delving into its wartime legacy during WWII.</p>
+                    <p>Should the allure of exploration beckon beyond Topsail Beach's confines, a wealth of information on enticing day trips awaits at <a href="https://www.topsailchamber.org/" target="_blank">topsailchamber.org</a> or <a href="https://www.visitpender.com/">visitpender.com</a>, promising enriching adventures beyond compare.</p>    
+                </div>
+    
+            </div>
+
+            <h3>FAQs</h3>
+            <div class="info">
+                <div class="infoItem">
+                    <p><em>Q: Can I drive a golf cart or vehicle on the beach?</em> <br> A: Golf Carts may not be operated on any state or town streets here at Topsail Beach. Four wheel drive vehicles are normally allowed with the purchase of a Beach Access Permit for fishing purposes only. However, due to the Beach Renourishment Project, Beach Access Permits are <b>NOT AVAILABLE</b> until the 2024/2025 season.</p>
+
+                    <p><em>Q: Are dogs allowed on the beach?</em> <br> A: Of course! We require all dogs to be on a leash between May 15th and September 30th each year when off of its own property, and any "deposits" must be cleaned up. This applies to the whole town and the beach.</p>    
+                </div>
+                
+                <div class="infoItem">
+                    <p><em>Q: Can I get married on the beach?</em> <br> A: Topsail Beach welcomes anyone who would like to have their wedding here! No charges or permits needed, unless amplification equipment is to be used during the event, including the ceremony and reception. Please be aware that parking may be limited during the tourist season.</p>
+
+                    <p><em>Q: Can I have a fire on the beach?</em> <br> A: No, open fires are prohibited on the beach. Cooking on charcoal grille or similar equipment is allowed.</p>    
+                </div>
+            </div>
+
+            <footer>
+                <p>820 S. Anderson Blvd., Topsail Beach, NC 28445 | Phone: 910-328-5841 | Fax: 910-328-1560</p>
+                <p>Follow Us On: </p>
+                <p><a href="https://www.facebook.com/" target="_blank">Facebook</a> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://twitter.com/?lang=en" target="_blank">X (Formerly Twitter)</a></p>
+            </footer>
+        </main>
+
+        <script>
+            function menuToggle(){
+                var n = document.getElementById("links");
+                if(n.style.display === "block"){
+                    n.style.display = "none";
+                }
+                else{
+                    n.style.display = "block";
+                }
+            }
+        </script>
+
+    </body>
+</html>

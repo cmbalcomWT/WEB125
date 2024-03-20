@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Topsail Beach</title>
+		<link type="text/css" rel="stylesheet" href="css/BalcomTopsailStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header><h1>Topsail Beach, NC</h1></header>
+
+        <main>
+            <nav id="mainNav">
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a href="BalcomTopsail.html">Home</a>
+                    <a href="BalcomTopsail_Things.html">Things To Do</a>
+                    <a href="BalcomTopsail_Accom.html">Accomodations</a>
+                    <a href="BalcomTopsail_Emergency.html">Emergency Information</a>
+                </div>			
+            </nav>
+
+            <h2>Emergency Information</h2>
+            <br>
+            <div id="emergencyInfo">
+                <div class="info">
+                    <div class="infoItem">
+                        <h3>Local Emergency Information</h3>
+                        <p><b>Police Department</b><br>(910)328-4851<br>812 S. Anderson Blvd.<br>Topsail Beach, NC 28445</p>
+    
+                        <p><b>Fire Department</b><br>(910)328-2980<br>814 S. Anderson Blvd.<br>Topsail Beach, NC 28445</p>
+    
+                        <p><b>Pender EMS</b><br>(910)328-1136<br>801 Flake Ave.<br>Topsail Beach, NC 28445</p>
+                    </div>
+    
+                    <div class="infoItem">
+                        <h3>Local Hospitals</h3>
+                        <p><b>New Hanover Regional Medical Center</b><br>2131 South 17th St. <br> Wilmington, NC <br> (910) 667-7000</p>
+    
+                        <p><b>NHRMC Emergency Department - North</b><br>151 Scotts Hill Medical Dr. <br> Wilmington, NC 28411 <br> (910) 662-9000</p>
+    
+                        <p><b>Onslow Memorial Hospita</b><br>317 Western Blvd. <br> Jacksonville, NC <br> (910)577-2345</p>
+                    </div>
+                </div>
+    
+                <div class="infoNG">
+                    <h3>Sun Safety</h3>
+                    <p>While a bit of sun exposure can be pleasant, excessive exposure can pose risks. Overexposure to ultraviolet (UV) radiation from the sun can lead to painful sunburns and more severe health issues like skin cancer, premature skin aging, cataracts, eye damage, and weakened immune systems. Children are especially vulnerable. This webpage provides straightforward guidance on shielding yourself and your children from UV overexposure.</p>
+                    <p>Many people are unaware that, despite being largely preventable, skin cancer ranks as the most common form of cancer in the United States, with over 3.5 million new cases diagnosed annually. By adopting simple precautions, you can still relish your time under the sun while safeguarding against overexposure.</p>
+                    <p class="bold">The U.S. Environmental Protection Agency (EPA) suggests practical steps to help you and your family embrace a "SunWise" approach.</p>
+                    <ul id="sunList">
+                        <li><img src="images/sunList.png" width="20px" height="20px">Do NOT Burn</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Apply Generous Amounts of Sunscreen</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Seek Shade</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Wear Protective Clothing</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Use Extra Caution Near Water, Snow, and Sand</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Avoid Sun Tanning and Tanning Beds</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Get Vitamin D Safely</li>
+                        <li><img src="images/sunList.png" width="20px" height="20px">Check the UV Index</li>
+                    </ul>
+                </div>
+            </div>
+
+            <footer>
+                <p>820 S. Anderson Blvd., Topsail Beach, NC 28445 | Phone: 910-328-5841 | Fax: 910-328-1560</p>
+                <p>Follow Us On: </p>
+                <p><a href="https://www.facebook.com/" target="_blank">Facebook</a> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://twitter.com/?lang=en" target="_blank">X (Formerly Twitter)</a></p>
+            </footer>
+        </main>
+
+        <script>
+            function menuToggle(){
+                var n = document.getElementById("links");
+                if(n.style.display === "block"){
+                    n.style.display = "none";
+                }
+                else{
+                    n.style.display = "block";
+                }
+            }
+        </script>
+        
+    </body>
+</html>

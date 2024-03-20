@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Topsail Beach</title>
+		<link type="text/css" rel="stylesheet" href="css/BalcomTopsailStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header><h1>Topsail Beach, NC</h1></header>
+        
+        <main>
+            <nav id="mainNav">
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a href="BalcomTopsail.html">Home</a>
+                    <a href="BalcomTopsail_Things.html">Things To Do</a>
+                    <a href="BalcomTopsail_Accom.html">Accomodations</a>
+                    <a href="BalcomTopsail_Emergency.html">Emergency Information</a>
+                </div>			
+            </nav>
+    
+            <h2>About Topsail Beach</h2>
+    
+            <h3>History</h3>
+            <div class="info" id="aboutTB">
+                <div class="infoItem tooBig"><img src="images/sandalsImg.jpeg"></div>
+
+                <div class="infoItem">
+                    
+                    <p>Nestled at the southernmost tip of Topsail Island, off the southeastern coast of North Carolina, Topsail Beach emerges as the quaintest enclave among the island's triad of communities. To its north stretches North Topsail Beach, while Surf City, the island's bustling hub, claims its central domain. Accessible via the traversed US Highway 17, Topsail Island sits equidistant between the urban centers of Wilmington and Jacksonville, boasting a tapestry of rich historical anecdotes.</p>
+                    <p>Legend whispers tales of the island's naming convention, purportedly derived from the visible topsails of clandestine pirate vessels seeking refuge behind its shores. However, the veritable genesis of the name traces back to the maps' inscriptions of New Topsail Inlet, distinct from its Beaufort counterpart. Following the visionary development endeavors of J.G. Anderson on the island's southernmost fringe, christened New Topsail Beach, the appellation "Topsail" seamlessly integrated into the island's lexicon.</p>
+                </div>
+            </div>
+
+            <div class="infoNG">  
+                <div>
+                    <p>Before the tumult of World War II reshaped its landscape, access to Topsail Island was solely by sea, with intrepid locals embarking on brief sojourns to revel in picnics upon its sandy expanse. Folklore weaves tales of farmers herding their livestock across waterways to graze on the island's verdant meadows, while treasure seekers scoured its forests in pursuit of Blackbeard's elusive trove. During the early 1900s, a smattering of structures, scarcely a dozen in number, peppered the island's soundscape, offering solace to anglers and summer sojourners alike</p>
+                    <p>The advent of World War II heralded a transformative chapter in the island's narrative, as the U.S. Army erected a sizable temporary anti-aircraft training base in Holly Ridge, assuming custodial reins over the island. A thorough infrastructural overhaul ensued, including the construction of a pivotal road linking Camp Davis to the sound and the deployment of a floating bridge across the Intracoastal Waterway, a precursor to the burgeoning Surf City commercial precinct. Post-war, the mantle of control passed to the Navy, catalyzing Operation Bumblebee in partnership with Johns Hopkins University, an epochal endeavor in guided missile development. The remnants of this pioneering initiative, like the missile assembly edifice repurposed as a museum and rendezvous nexus, punctuate the island's contemporary landscape. With the denouement of the program in 1948, custodial sovereignty reverted to the island's original proprietors, instigating an era of transformative metamorphosis.</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="infoItem">
+                    <p>Chartered in 1963, Topsail Beach epitomizes a convivial, kin-centric beachfront lifestyle. Eschewing the vertiginous skyline that characterizes urban precincts, the town avows a commitment to aesthetic enhancement and ecological stewardship. While boasting a superfluity of over 1,200 abodes, the year-round denizens of Topsail Beach barely surpass the five-century mark. Nevertheless, with the vernal influx of tourists swelling the populace to a crescendo of approximately 7,000, the town's hospitality establishments, culinary emporiums, artisanal boutiques, and maritime amenities thrive in harmonious concert with nature's whims.</p>
+                </div>
+
+                <div class="infoItem">
+                    <img src="images/beach3.jpg">
+                </div>
+            </div>
+
+            <footer>
+                <p>820 S. Anderson Blvd., Topsail Beach, NC 28445 | Phone: 910-328-5841 | Fax: 910-328-1560</p>
+                <p>Follow Us On: </p>
+                <p><a href="https://www.facebook.com/" target="_blank">Facebook</a> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://twitter.com/?lang=en" target="_blank">X (Formerly Twitter)</a></p>
+            </footer>
+        </main>
+
+        <script>
+            function menuToggle(){
+                var n = document.getElementById("links");
+                if(n.style.display === "block"){
+                    n.style.display = "none";
+                }
+                else{
+                    n.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
